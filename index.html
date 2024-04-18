@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS | Pad Shoes</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>PAD Shoes</h1>
+            <div class="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sobre">Sobre a loja</a>
+                    </li>
+                    <li>
+                        <a href="#produtos">Produtos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container conteudo">
+        <main>
+            <section class="sobre" id="sobre">
+                    <div class="image-and-text">
+                        <img src="imagens/faixada.jpg" alt="Imagem da fachada" class="faixada">
+                        <div class="text">
+                            <h2>Sobre a loja</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis impedit voluptates voluptatem ipsam maxime iusto libero, tempora mollitia sapiente fuga amet similique ea nulla ipsa sunt. Odit expedita est error?</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis impedit voluptates voluptatem ipsam maxime iusto libero, tempora mollitia sapiente fuga amet similique ea nulla ipsa sunt. Odit expedita est error?</p>
+                        </div>
+                </article>
+            </section>
+            <h2>Produtos</h2>
+            <section class="produtos" id="produtos">
+                <article class="produto">
+                    <div class="info">
+                        
+                        <img src="imagens/jordan1.jfif" alt="jordan1">
+                        <div class="descricao">
+                            <h3>Air Jordan 1 High </h3>
+                            <del>R$ 1999,00</del>
+                            <strong>R$1499,00</strong>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt dignissimos, quia impedit voluptate, nihil dolorem corporis nulla debitis facilis quam quasi architecto alias minima ipsum</p>
+                            <button class="add-to-cart">Adicionar ao carrinho</button>
+
+                        </div>
+                    </div>
+                </article>
+                <article class="produto">
+                    
+                    <div class="info">
+                        
+                        <img src="imagens/jordan4.jfif" alt="jordan4">
+                        <div class="descricao">
+                            <h3>Air Jordan 4 Off-Withe</h3>
+                            <del>R$ 1999,00</del>
+                            <strong>R$1499,00</strong>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt dignissimos, quia impedit voluptate, nihil dolorem corporis nulla debitis facilis quam quasi architecto alias minima ipsum</p>
+                            <button class="add-to-cart">Adicionar ao carrinho</button>
+
+                        </div>
+                    </div>
+                </article>
+                <article class="produto">
+                    <div class="info">
+                        
+                        <img src="imagens/nikeair.jfif" alt="nikeair">
+                        <div class="descricao">
+                            <h3>Nike Air</h3>
+                            <del>R$ 1999,00</del>
+                            <strong>R$1499,00</strong>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt dignissimos, quia impedit voluptate, nihil dolorem corporis nulla debitis facilis quam quasi architecto alias minima ipsum</p>
+                            <button class="add-to-cart">Adicionar ao carrinho</button>
+
+                        </div>
+
+                    </div>
+                </article>
+                <article class="produto">
+                    <div class="info">
+                        
+                        <img src="imagens/yezzy.jfif" alt="yezz">
+                        <div class="descricao">
+                            <h3>Adidas Yeezy 350</h3>
+                            <del>R$ 1999,00</del>
+                            <strong>R$1499,00</strong>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta molestias quam et cupiditate voluptatem aspernatur ipsum inventore neque totam ex, harum possimus numquam nisi aperiam? </p>
+                            <button class="add-to-cart">Adicionar ao carrinho</button>
+
+                        </div>
+
+                    </div>
+                </article>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Pad Shoes - Todos os direitos reservados - 2024
+            </p>
+            <ul class="links-sociais">
+                <li>
+                    <a href="https://www.instagram.com/_p_a_d/" title="Entre em contato">
+                        <img src="imagens/wpp.png" alt="Logo do wpp">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/_p_a_d/" title="Nos siga no Instagram">
+                        <img src="imagens/instagram.png" alt="Logo do instagram">
+                    </a>
+                </li>
+                <a href="https://www.facebook.com/petrick.ad/" title="Nos siga no Facebook">
+                    <img src="imagens/facebook.png" alt="Logo do facebook">
+                </a>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('.menu').click(function(){
+                $('nav ul li').slideToggle()
+            })
+        })
+    </script>
+</body>
+</html>
